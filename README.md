@@ -10,6 +10,7 @@ This Laravel starter package consists of the following components:
 ## Get started
 
 Execute the following commands: 
+
     composer install 
     npm install 
     php artisan migrate 
