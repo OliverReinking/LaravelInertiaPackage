@@ -1,0 +1,81 @@
+/* Klasse sk-au-x (au = authentication) */
+.sk-au-header {
+    @apply bg-header text-on-header h-24 z-20;
+}
+.sk-au-main-container {
+    @apply bg-main text-on-main mx-auto h-screen;
+}
+.sk-au-container {
+    @apply flex flex-col justify-center items-center h-auto z-0;
+    @screen md {
+        .sk-au-container {
+            @apply h-full min-h-full -mt-12;
+        }
+    }
+}
+.sk-au-flex {
+    @apply p-2 w-full max-w-3xl flex flex-wrap items-stretch;
+}
+.sk-au-left-column {
+    @apply hidden bg-primary-dark rounded-none shadow-lg;
+    @screen md {
+        .sk-au-left-column {
+            @apply flex w-2/5 rounded-l-lg p-4;
+        }
+    }
+}
+.sk-au-right-column {
+    @apply w-full flex flex-col break-words bg-primary text-on-primary rounded-none shadow-lg text-center;
+    @screen md {
+        .sk-au-right-column {
+            @apply w-3/5 rounded-r-lg;
+        }
+    }
+}
+.sk-au-logo {
+    @apply text-on-primary w-32 mx-auto;
+}
+.sk-au-title {
+    @apply text-on-primary font-semibold tracking-widest uppercase text-center text-xl;
+}
+.sk-au-errors-container {
+    @apply my-6 p-2 text-center bg-gray-200 text-gray-900 border-l-4 border-red-500 font-medium rounded;
+}
+.sk-au-status-container {
+    @apply my-6 p-2 text-center bg-gray-200 text-gray-900 border-l-4 border-green-500 font-medium rounded;
+}
+.sk-au-button-container {
+    @apply my-2 flex flex-col items-center justify-between;
+    @screen md {
+        .sk-au-button-container {
+            @apply flex-row;
+        }
+    }
+}
+.sk-au-button {
+	@apply px-3 py-1 bg-primary-light text-on-primary rounded;
+	&:hover {
+		@apply bg-primary-lighter text-on-primary outline-none;
+	}
+	&:focus {
+		@apply bg-primary-lighter text-on-primary outline-none;
+	}
+}
+.sk-au-link {
+	@apply px-3 py-1 underline text-on-primary rounded;
+	&:hover {
+		@apply bg-primary-lighter text-on-primary outline-none;
+	}
+	&:focus {
+		@apply bg-primary-lighter text-on-primary outline-none;
+	}
+}
+.sk-au-footerlink {
+	@apply px-3 py-1 rounded text-on-primary;
+	&:hover {
+		@apply text-on-primary bg-primary outline-none;
+	}
+	&:focus {
+		@apply text-on-primary bg-primary outline-none;
+	}
+}
