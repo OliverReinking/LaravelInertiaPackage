@@ -11,6 +11,7 @@ This Laravel starter package consists of the following components:
 
 Execute the following commands: 
 
+    Rename the file .env.example to .env
     composer install 
     npm install 
     php artisan migrate 
@@ -18,4 +19,4 @@ Execute the following commands:
 
 ## License
 
-The Laravel Inertai Package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel Inertia Package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
