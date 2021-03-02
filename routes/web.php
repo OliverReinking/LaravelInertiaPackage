@@ -4,6 +4,7 @@ use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\AdminDashboardController;
+use App\Http\Controllers\CustomerDashboardController;
 
 Route::get('/', function () {
     return Inertia::render('Homepage/Views/Home');
